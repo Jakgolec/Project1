@@ -13,22 +13,113 @@ h1, h2, h3, a{
     font-family: "Roboto Condensed", sans-serif;
 
 }
-
-body{
-    font-family: 'Times New Roman', Times, serif;
+header{
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: static;
 }
 
+header a > h1 {
+    font-size: 3rem; 
+    letter-spacing: 2px;
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+    padding: 2px;
+    
+    
+}
 #menu {
-    font-size: 120%;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    justify-content: space-between;
+    align-items: baseline;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#menu > ul > li {
+    margin-top: auto;
+    list-style-type: none;
+    float:left;
+    padding: 2rem;
+    text-transform: capitalize;
+    margin-left: auto;
+    position: relative;
+
+}
+/*
+Display:
+Justify-content: 
+flex:
+margin 
+position: static relative fixed absolute
+        
+ */
+main {
+    display: flex;
+    flex-direction: column;
+    border: 20px;
     
 }
 
-#menu > ul {
-    margin-top: auto;
-    list-style-type: none;
+body{
+    position: relative;
+    top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    min-height:  100vh;
+    display: flex;
+    flex-direction: column;
+}
+#introduction {
+    position: absolute;
+    font-size: 3rem;
+    border: 3px solid #73AD21;
+    width: 50%;
+    right: 0;
+    
 }
 
+#introduction > p {
+    text-wrap:balance
+}
+
+#gallery {
+    display:flex;
+    position: absolute;
+    border: 3px solid #73AD21;
+    width: 50%;
+    left: 0;
+}
+
+
+
 #gallery > img {
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 25%;
+    max-height: 25%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+}
+
+#about-us{
+    position: absolute;
+}
+
+#join-us{
+    position: absolute; 
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
