@@ -1,0 +1,34 @@
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, a{
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#menu {
+    font-size: 120%;
+    
+}
+
+#menu > ul {
+    margin-top: auto;
+    list-style-type: none;
+}
+
+#gallery > img {
+    max-width: 400px;
+    max-height: 400px;
+}
