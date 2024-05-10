@@ -13,15 +13,15 @@ h1, h2, h3, a{
     font-family: "Roboto Condensed", sans-serif;
 
 }
-header{
+header {
     z-index: 99;
     display: flex;
     flex-direction: column;
     width: 100%;
-    position: static;
+    position: relative;
 }
-
-header a > h1 {
+/* Allows to modiy the logo */
+#logo {
     font-size: 3rem; 
     letter-spacing: 2px;
     position: relative;
@@ -59,46 +59,60 @@ position: static relative fixed absolute
         
  */
 main {
+    position: relative;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    top: 20px;
     border: 20px;
     
 }
 
 body{
     position: relative;
-    top: 100px;
     font-family: 'Times New Roman', Times, serif;
-    min-height:  100vh;
     display: flex;
     flex-direction: column;
 }
-#introduction {
-    position: absolute;
-    font-size: 3rem;
-    border: 3px solid #73AD21;
-    width: 50%;
-    right: 0;
+.front-menu{
+    display: flex;
+    flex-direction: row; /* By default, the blocks will be inline on bigger screens */
+    flex-wrap: wrap; /* Allow wrapping to stack blocks on smaller screens */
+    max-width: 100%;
     
 }
+#text, #gallery{
+    width: 50%; /* Each block takes up half the width of the container */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    position: relative; /* Position relative for absolute positioning of images */
+    overflow: hidden; /* Hide any overflow from images */
+} 
 
-#introduction > p {
-    text-wrap:balance
+/* Wraps the intruduction text */
+#text {
+ text-align: center;
+ flex-grow: 1;
 }
 
-#gallery {
-    display:flex;
-    position: absolute;
+/* Sets the introduction text to be on the right of the gallery */
+#text {  
+    font-size: 1.5rem;
     border: 3px solid #73AD21;
-    width: 50%;
-    left: 0;
+  
 }
+/* Sets up peremeter for the gallery */
+#gallery {
+    position: relative;
+    border: 3px solid #73AD21;
 
-
+}
 
 #gallery > img {
-    max-width: 25%;
-    max-height: 25%;
+    width: 100%; /* Make images fill their container width */
+    height: 100%; /* Make images fill their container height */
+    object-fit: cover; /* Maintain aspect ratio and fill the container */
+    object-position: center; /* Center the image within its container */
 }
 
 footer {
@@ -111,15 +125,34 @@ footer {
 }
 
 #about-us{
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    position: relative;
+    top: 0;
 }
 
 #join-us{
-    position: absolute; 
+    position: relative;    
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
 }
 
 footer {
     position: absolute;
+    max-width: 100%;
     left: 0;
     bottom: 0;
+}
+
+@media (max-width: 600px) {
+    /* On smaller screens, switch to a column layout */
+    .front-menu {
+      flex-direction: column;
+      
+    }
+    #text, #gallery{
+        width: 100%; /* Each block takes up half the width of the container */
+    }
 }
