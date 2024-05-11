@@ -9,6 +9,17 @@
     box-sizing: border-box;
 }
 
+main {
+
+    background-image: linear-gradient(45deg, rgba(50,93,105,1) 0%, rgba(95,129,138,1) 27%, rgba(50,93,105,1) 52%, rgba(14,16,15,1) 90%);
+    background-size: auto;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    background-color: rgba(250,139,255,1);
+    
+  }
+  
+
 h1, h2, h3, a{
     font-family: "Roboto Condensed", sans-serif;
 
@@ -23,8 +34,13 @@ text-decoration: none;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    border: 20px solid #914e10;
     width: 100%;
+    background: linear-gradient(45deg, #4e4c75 0%, #4e4c75 5%,transparent 5%, transparent 10%, #4e4c75 10%, #4e4c75 15%,transparent 15%,transparent 20%, #4e4c75 20%, #4e4c75 25%,transparent 25%,transparent 30%, #4e4c75 30%, #4e4c75 35%,transparent 35%,transparent 40%, #4e4c75 40%, #4e4c75 45%,transparent 45%,transparent 50%, #4e4c75 50%, #4e4c75 55%,transparent 55%,transparent 60%, #4e4c75 60%, #4e4c75 65%,transparent 65%,transparent 70%, #4e4c75 70%, #4e4c75 75%,transparent 70%,transparent 80%, #4e4c75 80%, #4e4c75 85%,transparent 85%,transparent 90%, #4e4c75 90%, #4e4c75 95%,transparent 95%), linear-gradient(135deg, #4e4c75 0%, #4e4c75 5%,transparent 5%, transparent 10%, #4e4c75 10%, #4e4c75 15%,transparent 15%,transparent 20%, #4e4c75 20%, #4e4c75 25%,transparent 25%,transparent 30%, #4e4c75 30%, #4e4c75 35%,transparent 35%,transparent 40%, #4e4c75 40%, #4e4c75 45%,transparent 45%,transparent 50%, #4e4c75 50%, #4e4c75 55%,transparent 55%,transparent 60%, #4e4c75 60%, #4e4c75 65%,transparent 65%,transparent 70%, #4e4c75 70%, #4e4c75 75%,transparent 70%,transparent 80%, #4e4c75 80%, #4e4c75 85%,transparent 85%,transparent 90%, #4e4c75 90%, #4e4c75 95%,transparent 95%);
+    background-size: 3em 3em;
+    background-color: #ffffff;
+    opacity: 1
+    border
+        
 }
 
 #logo , #menu{
@@ -40,27 +56,22 @@ text-decoration: none;
     font-size: 2rem; 
     letter-spacing: 2px;
     position: relative; 
-    border: 3px solid #73AD21;  
     width: 30%;
     text-align: center;
 }
 #menu {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     letter-spacing: 1.2px;
     justify-content: space-evenly;
     text-align: center;
     position: relative;
-    border: 3px solid #73AD21;
     width: 70%;
 }
 #menu > ul > li {
     margin-top: auto;
     list-style-type: none;
-    /* float:none; */
     display: inline;
     padding: 1rem;
-    text-transform: capitalize;
-    /* margin-left: 100px; */
     position: relative;
 
 }
@@ -87,6 +98,7 @@ body{
     font-family: "Roboto Condensed", sans-serif;
     display: flex;
     flex-direction: column;
+    
 }
 .front-menu{
     display: flex;
@@ -109,15 +121,13 @@ body{
 /* Sets the introduction text to be on the right of the gallery */
 #text {  
     font-size: 1.5rem;
-    border: 3px solid #73AD21;
     text-align: center;
     flex-grow: 1;
 }
 /* Sets up peremeter for the gallery */
-#gallery {
-    border: 3px solid #73AD21;
+/* #gallery {
 
-}
+} */
 #gallery > img {
     width: 100%; /* Make images fill their container width */
     height: 100%; /* Make images fill their container height */
