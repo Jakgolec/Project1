@@ -13,40 +13,54 @@ h1, h2, h3, a{
     font-family: "Roboto Condensed", sans-serif;
 
 }
-header {
-    z-index: 99;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    position: relative;
+
+a {
+text-decoration: none;
+
 }
-/* Allows to modiy the logo */
+#menu-top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 20px solid #914e10;
+    width: 100%;
+}
+
+#logo , #menu{
+    /* width: auto; Each block takes up half the width of the container */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    position: relative; /* Position relative for absolute positioning of images */
+    overflow: hidden; /* Hide any overflow from images */
+    text-decoration: none;
+}
+/* Allows to modify the logo */
 #logo {
-    font-size: 3rem; 
+    font-size: 2rem; 
     letter-spacing: 2px;
-    position: relative;
-    top: 1rem;
-    left: 1rem;
-    padding: 2px;
-    
-    
+    position: relative; 
+    border: 3px solid #73AD21;  
+    width: 30%;
+    text-align: center;
 }
 #menu {
-    font-size: 2rem;
-    letter-spacing: 2px;
-    justify-content: space-between;
-    align-items: baseline;
-    position: absolute;
-    top: 0;
-    right: 0;
+    font-size: 1.2rem;
+    letter-spacing: 1.2px;
+    justify-content: space-evenly;
+    text-align: center;
+    position: relative;
+    border: 3px solid #73AD21;
+    width: 70%;
 }
 #menu > ul > li {
     margin-top: auto;
     list-style-type: none;
-    float:left;
-    padding: 2rem;
+    /* float:none; */
+    display: inline;
+    padding: 1rem;
     text-transform: capitalize;
-    margin-left: auto;
+    /* margin-left: 100px; */
     position: relative;
 
 }
@@ -92,24 +106,18 @@ body{
 } 
 
 /* Wraps the intruduction text */
-#text {
- text-align: center;
- flex-grow: 1;
-}
-
 /* Sets the introduction text to be on the right of the gallery */
 #text {  
     font-size: 1.5rem;
     border: 3px solid #73AD21;
-  
+    text-align: center;
+    flex-grow: 1;
 }
 /* Sets up peremeter for the gallery */
 #gallery {
-    position: relative;
     border: 3px solid #73AD21;
 
 }
-
 #gallery > img {
     width: 100%; /* Make images fill their container width */
     height: 100%; /* Make images fill their container height */
@@ -138,14 +146,9 @@ footer {
 
 
 
-/* #contact-us {
-    padding: 30px 0;
-    position: absolute;
-    max-width: 100%;
-    text-align: center;
-    left: 0;
-    bottom: 0;
-} */
+#contact-us > h2 {
+    padding: 20px;
+}
 
 #social-networks {
     text-align: center;
@@ -229,10 +232,15 @@ footer {
 @media (max-width: 600px) {
     /* On smaller screens, switch to a column layout */
     .front-menu {
-      flex-direction: column;
-      
+        flex-direction: column;
     }
     #text, #gallery{
         width: 100%; /* Each block takes up half the width of the container */
+    }
+    #menu-top{
+        flex-direction: column;
+    }
+    #logo , #menu{
+        width: 100%;
     }
 }
