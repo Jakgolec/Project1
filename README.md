@@ -12,21 +12,21 @@ Website welcomes you with a quote from Albert Einstein and invites you to sign u
 - __Navigation Bar__
 
   - Featured in the top right corner is the nav bar that allows you to easily navigate around the single page.
-  - Currently the navigation option includes Introduction, About us, Join US and Contact Us portion
-  - When viewed on devices with pixel count below 600 navigation bar will wrap and move to display as a column makeing it easier to view the website.
+  - Currently, the navigation option includes Introduction, About us, Join US and Contact Us portion
+  - When viewed on devices with pixel count below 600 navigation bar will wrap and move to display as a column making it easier to view the website.
 ![Nav Bar](https://github.com/Jakgolec/Project1/blob/main/assets/media/Navbar.png)
 
 - __Introduction Section__
 
   - The landing includes a photograph of an inspirational quote along with the introduction section to its left.
-  - This section introduces the user to Qoute of the day and captures their attention with a quote from well known scientist.
-  - When viewed on smaller devices these sections will wrap in a column matter makeing the viewing experience more enjoyable. 
+  - This section introduces the user to Quote of the day and captures their attention with a quote from well known scientist.
+  - When viewed on smaller devices these sections will wrap in a column matter making the viewing experience more enjoyable. 
 
 ![Introduction Section](https://github.com/Jakgolec/Project1/blob/main/assets/media/IntroductiontoQuote.png)
 - __About us__
 
 - About us is a short introduction to our team and what we are passionate about.
-- We encourage viewers to dwell into the world of quotes and let them be inspired by our daily selcetion of best quotes we could find. 
+- We encourage viewers to dwell into the world of quotes and let them be inspired by our daily selection of best quotes we could find. 
 
 ![About us](https://github.com/Jakgolec/Project1/blob/main/assets/media/Aboutus.png)
 
@@ -34,7 +34,7 @@ Website welcomes you with a quote from Albert Einstein and invites you to sign u
 
   - This section is a form that allows viewer to join our newsletter with daily handpicked quotes.
   - This form will not allow empty submission, neither invalid email addresses.
-  - It allows you to select the kind of quotes you would prefare to receive. 
+  - It allows you to select the kind of quotes you would prefer to receive. 
 
 ![Sign up](https://github.com/Jakgolec/Project1/blob/main/assets/media/Joinus.png)
 
@@ -48,10 +48,10 @@ Website welcomes you with a quote from Albert Einstein and invites you to sign u
 -
 ## Testing 
 
-- After viewing website on github pages, I saw that letter were not standing out and changed them to white to increase accesibility.
-- Viewing About Us section made me realise text was too small and required to match introduction in size.
-- Used different browsers like mozilla and chrome to test the website
-- I utilised chrome developer tools to see how will the website display on different deveices.
+- After viewing website on github pages, I saw that letter were not standing out and changed them to white to increase accessibility.
+- Viewing About Us section made me realize text was too small and required to match introduction in size.
+- Used different browsers like Mozilla and chrome to test the website
+- I utilized Chrome developer tools to see how will the website display on different devices.
 
 ### Validator Testing 
 
@@ -61,6 +61,8 @@ Website welcomes you with a quote from Albert Einstein and invites you to sign u
 - CSS
 ![CSS Validator](https://github.com/Jakgolec/Project1/blob/main/assets/media/W3C%20CSS%20Validator.png)
   - No errors were found when passing through the official [(Jigsaw) validator]
+![CSS Validator](https://github.com/Jakgolec/Project1/blob/main/assets/media/W3C%20CSS%20Validator.png)
+- Lighthouse report showed 100 accessibility score. 
 
 
 
