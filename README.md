@@ -56,10 +56,10 @@ Website welcomes you with a quote from Albert Einstein and invites you to sign u
 ### Validator Testing 
 
 - HTML
-![HTML Validator](https://github.com/Jakgolec/Project1/blob/main/assets/media/ContactUs.png)
+![HTML Validator](https://github.com/Jakgolec/Project1/blob/main/assets/media/HTMLCheck.png)
   - No errors were returned when passing through the official [W3C validator]
 - CSS
-![CSS Validator](https://github.com/Jakgolec/Project1/blob/main/assets/media/ContactUs.png)
+![CSS Validator](https://github.com/Jakgolec/Project1/blob/main/assets/media/W3C%20CSS%20Validator.png)
   - No errors were found when passing through the official [(Jigsaw) validator]
 
 
