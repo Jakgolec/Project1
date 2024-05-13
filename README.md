@@ -48,7 +48,7 @@ Website welcomes you with a quote from Albert Einstein and invites you to sign u
 -
 ## Testing 
 
-- I tested 
+- After viewing website on github pages, I saw that letter were not standing out and changed them to white to increase accesibility 
 
 ### Validator Testing 
 
