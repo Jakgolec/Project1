@@ -16,6 +16,7 @@ main {
     background-position: 0% 0%;
     background-repeat: repeat;
     background-color: rgba(250,139,255,1);
+    color: white;
     
   }
   
@@ -38,6 +39,7 @@ color: inherit;
     width: 100%;
     background: rgb(50, 90, 175);
     opacity: 20;
+    color: white;
     
 }
 
