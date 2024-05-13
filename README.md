@@ -22,14 +22,13 @@ Website welcomes you with a quote from Albert Einstein and invites you to sign u
   - This section introduces the user to Qoute of the day and captures their attention with a quote from well known scientist.
   - When viewed on smaller devices these sections will wrap in a column matter makeing the viewing experience more enjoyable. 
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
-
+![Introduction Section](https://github.com/Jakgolec/Project1/blob/main/assets/media/IntroductiontoQuote.png)
 - __About us__
 
 - About us is a short introduction to our team and what we are passionate about.
 - We encourage viewers to dwell into the world of quotes and let them be inspired by our daily selcetion of best quotes we could find. 
 
-![About us](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![About us](https://github.com/Jakgolec/Project1/blob/main/assets/media/Aboutus.png)
 
 - __Join Us__
 
@@ -37,14 +36,14 @@ Website welcomes you with a quote from Albert Einstein and invites you to sign u
   - This form will not allow empty submission, neither invalid email addresses.
   - It allows you to select the kind of quotes you would prefare to receive. 
 
-![Sign up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Sign up](https://github.com/Jakgolec/Project1/blob/main/assets/media/Joinus.png)
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for Quote of the day. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](https://github.com/Jakgolec/Project1/blob/main/assets/media/ContactUs.png)
 
 -
 ## Testing 
