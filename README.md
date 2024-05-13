@@ -61,7 +61,7 @@ Website welcomes you with a quote from Albert Einstein and invites you to sign u
 - CSS
 ![CSS Validator](https://github.com/Jakgolec/Project1/blob/main/assets/media/W3C%20CSS%20Validator.png)
   - No errors were found when passing through the official [(Jigsaw) validator]
-![CSS Validator](https://github.com/Jakgolec/Project1/blob/main/assets/media/W3C%20CSS%20Validator.png)
+![CSS Validator](https://github.com/Jakgolec/Project1/blob/main/assets/media/Lighhousescore.png)
 - Lighthouse report showed 100 accessibility score. 
 
 
