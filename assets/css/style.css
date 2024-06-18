@@ -229,19 +229,29 @@ footer {
     .front-menu {
         flex-direction: column;
         display: flex;
-        width: fit-content;
+        width: 100%;
     }
-    #text, #gallery{
+    #text {
         width: 100%; /* Each block takes up half the width of the container */
+    }
+    #gallery {
+        width: fit-content;
     }
     #menu-top{
         flex-direction: column;
+        width: 100%
     }
-    #logo , #menu{
+    #logo, #menu{
         width: 100%;
     }
-}
-
-@media  { max-width: ;
-    
+    /*Enlarges the submission table to be more responsive on mobile phone */
+    #join-us{
+        padding: 40px 10% 0 10%;
+        
+    }
+    /* Radio buttons will change into column to fit smaller screen */
+    .radio-buttons {
+        width: 100%;
+        flex-direction: column;
+    }
 }
