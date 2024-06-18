@@ -1,4 +1,4 @@
-![Preview](https://github.com/Jakgolec/Project1/blob/main/assets/media/Navbar.png)
+![Preview](https://github.com/Jakgolec/Project1/blob/main/assets/media/amiresponive.png)
 # Quote of the day
 
 Welcome 
