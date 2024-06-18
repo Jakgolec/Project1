@@ -235,7 +235,7 @@ footer {
         width: 100%; /* Each block takes up half the width of the container */
     }
     #gallery {
-        width: fit-content;
+        width: 100%;
     }
     #menu-top{
         flex-direction: column;
