@@ -1,3 +1,4 @@
+![Preview](https://github.com/Jakgolec/Project1/blob/main/assets/media/Navbar.png)
 # Quote of the day
 
 Welcome 
