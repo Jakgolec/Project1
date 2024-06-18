@@ -228,6 +228,8 @@ footer {
     /* On smaller screens, switch to a column layout */
     .front-menu {
         flex-direction: column;
+        display: flex;
+        width: fit-content;
     }
     #text, #gallery{
         width: 100%; /* Each block takes up half the width of the container */
@@ -238,4 +240,8 @@ footer {
     #logo , #menu{
         width: 100%;
     }
+}
+
+@media  { max-width: ;
+    
 }
